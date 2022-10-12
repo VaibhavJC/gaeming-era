@@ -1,0 +1,85 @@
+*{
+    margin: 0px;
+}
+body{
+    background: url("http://mitchmartinez.com/wp-content/uploads/2013/12/Fire-Embers-17.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#topbar{
+    background-color:darkgray;
+    color: #fff;
+    display: inline-flex;
+    text-align: center;
+    position: fixed;
+    padding: 10px;
+    width:100%;
+    top:0px;
+}
+
+.sectionLink{
+    margin-left: 500px;
+    margin-right: 500px;
+}
+
+.linkStyle{
+    margin-left: 10px;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+.linkStyle:hover{
+    text-decoration: underline;
+}
+.subHeading{
+    font-size: 30px;
+    margin-left: 50px;
+    margin-bottom: 25px;
+    color: wheat;
+    padding-top: 10px;
+    text-decoration: underline;
+}
+
+.contentStyle{
+    margin-top: 55px;
+    margin-left: 100px;
+    margin-right: 100px;
+    width: 90%;
+}
+
+li{
+    font-size: 25px;
+    margin-left: 10px;
+    color: white;
+}
+
+img{
+    width: 1200px;
+    height: 500px;
+    opacity: 0.2;
+}
+
+img:hover{
+    box-shadow: 5px 5px 50px goldenrod;
+    opacity: 100%;
+}
+
+#footerStyle{
+    width: 100%;
+    height: 200px;
+    margin-top: 25px;
+    background-color: gray;
+    color: white;
+    text-align: center;
+}
+
+.footerText{
+    position: relative;
+    top: 80px;
+    width: 20%;
+    height: 20%;
+    left: 40%;
+    background-color: black;
+}
